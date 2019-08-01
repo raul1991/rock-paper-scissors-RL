@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
         name="rock_paper_scissors",
-        version="0.0.1",
+        version="0.0.2",
         author="Rahul Bawa",
         author_email="hi.rahulbawa@gmail.com",
         description="A RL environment for rock paper scissors(deterministic)  based on openai",
