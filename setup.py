@@ -11,7 +11,7 @@ setuptools.setup(
         description="A RL environment for rock paper scissors(deterministic)  based on openai",
         long_description=long_description,
         long_description_content_type="text/markdown",
-        url="https://github.com/pypa/rock_paper_scissors",
+        url="https://github.com/raul1991/rock-paper-scissors-RL",
         packages=setuptools.find_packages(),
         classifiers=[
             "Programming Language :: Python :: 3",

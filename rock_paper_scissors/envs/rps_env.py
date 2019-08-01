@@ -56,4 +56,4 @@ class RPSEnv(gym.Env):
         pass
 
     def close(self):
-        print("Closing env")
+        pass
