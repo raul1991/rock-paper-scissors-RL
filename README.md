@@ -36,3 +36,9 @@ Install the dependencies and run the notebook placed in the repo.
 - How to install this package ?
 
 `pip3 install rock-paper-scissors`
+
+- Creating a python package commands
+
+`python3 setup.py sdist bdist_wheel`
+
+`python3 -m twine upload dist/* --verbose`
