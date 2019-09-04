@@ -5,12 +5,12 @@ env = gym.make('rock_paper_scissors:rps-v0')
 
 
 class Game(object):
-    q_table = np.random.uniform(low=-2, high=5, size=(env.state_space, env.action_space))
+    q_table = np.random.uniform(low=0, high=2, size=(env.state_space, env.action_space))
     total_reward, reward = 0, 0
     avg_rewards_list = []
     avg_reward = 0
 
-    def __init__(self, episodes=100, alpha=0.9, gamma=0.2, epsilon=0.2, min_eps=0):
+    def __init__(self, episodes=100, alpha=0.5, gamma=0.5, epsilon=0.2, min_eps=0):
         self.alpha = alpha
         self.gamma = gamma
         self.epsilon = epsilon

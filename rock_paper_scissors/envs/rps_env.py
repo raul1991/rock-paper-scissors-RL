@@ -38,7 +38,7 @@ class RPSEnv(gym.Env):
             reward = -2
         else:
             # Draw case
-            reward = 4
+            reward = -4
         return reward
 
     """
